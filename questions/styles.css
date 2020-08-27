@@ -57,3 +57,8 @@ button:hover{
 .selected{
     display: flex;
 }
+
+hr{
+    height: 0;
+    border-top: 1px solid #bbbbbb;
+}
