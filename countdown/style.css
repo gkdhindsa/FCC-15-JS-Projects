@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: sans-serif;
+}
+h1{
+    color: lightcoral;
+    font-size: 3rem;
+}
+h2{
+    margin-top: 1rem;
+}
+.buttons{
+    margin-top: 3rem;
+}
+button{
+    background-color: black;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem;
+    min-width: 70px;
+    height: 70px;
+
+}
+.u-text{
+    font-weight: bold;
+    font-size: 2rem;
+}
+.b-text{
+    font-size: 0.6rem;
+    
+}
