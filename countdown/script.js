@@ -42,6 +42,11 @@ function format(val){
 function getRemaining(){
     const today=new Date().getTime();
     let t=futureTime-today
+    console.log(t<0)
+    if(t<0){
+        document.querySelector('.exp').innerHTML='expired!'
+        t=0
+    }
 
 
     let Day=24*60*60*1000;
